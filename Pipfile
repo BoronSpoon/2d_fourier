@@ -6,9 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-#opencv-contrib-python = "*"
-#scipy = "*"
-#matplotlib = "*"
+numpy = "*"
+matplotlib = "*"
+opencv-contrib-python = "*"
+cython = "*"
+scipy = "*"
+dask = "*"
+pyfftw = "*"
 
 [requires]
 python_version = "3.6"
