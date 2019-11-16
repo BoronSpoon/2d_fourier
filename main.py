@@ -36,4 +36,4 @@ for i in range(1000):
     plot_dis(output, 'output_distribution.png')
     #cv2.imwrite("output.png", output.astype("uint8"))
     cv2.imshow("test", output.astype("uint8"))
-    cv2.waitKey(100)
+    cv2.waitKey(10)
